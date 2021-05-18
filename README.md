@@ -11,8 +11,15 @@ This was written to handle records from Hoopla but should be compatible with a v
 
 ## How
 
-Dragging a `.mrc` file over the executable is the easiest way to generate the carousel.
+Dragging a `.mrc` file over the executable is the easiest way to generate the carousel. 
 Command line usage, such as through a batch file, is also supported.
+
+Using an iframe is the suggested method of embedding the results:
+
+```html
+<iframe class="carousel" src="https://fullUrl/results.html" frameborder="0" scrolling="no">
+</iframe>
+```
 
 ## Example
 
